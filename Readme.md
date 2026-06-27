@@ -187,5 +187,3 @@ Khi khách hàng gọi API `GET /api/products`:
 1. Tạo thư mục dự án, chạy lệnh `npm init -y` để khởi tạo.
 2. Cài đặt các thư viện cốt lõi: `npm i express mongoose dotenv bcryptjs jsonwebtoken`.
 3. Cài đặt công cụ hỗ trợ dev: `npm i -D nodemon` (để tự động reload server khi sửa code).
-
-Bạn có muốn mình viết mẫu code chi tiết cho file kết nối database (`db.js`) và thực thể đầu tiên là `Product.js` (hoặc `User.js` với tính năng hash mật khẩu) để làm mẫu không?
